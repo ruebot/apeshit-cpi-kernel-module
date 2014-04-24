@@ -1,0 +1,10 @@
+.apeshit.ko.cmd
+.apeshit.mod.o.cmd
+.apeshit.o.cmd
+.tmp_versions/
+Module.symvers
+apeshit.ko
+apeshit.mod.c
+apeshit.mod.o
+apeshit.o
+modules.order

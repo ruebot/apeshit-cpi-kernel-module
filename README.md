@@ -1,13 +1,13 @@
-♫ Apeshit Simians - Shaved Ape Drape
-===============================
+# ♫ Apeshit Simians♫ 
+## Live at the Silver Dollar Room!
 
 by [Apeshit Simians](http://soundcloud.com/apeshit-simians) (Boutros Boutros Gorilla, Surnom de Gorille, and Gorilla Monpoon)
 
 
-Shaved Ape Drape - The Kernel Module Edition
+Live at the Silver Dollar Room! - The Kernel Module Edition
 --------------------------------------------------
 
-Welcome to the most unnecessarily complicated Apeshit Simian track release format yet. 
+Welcome to the most unnecessarily complicated Apeshit Simian release format yet. 
 
 In this repository, you will be able to compile your own kernel module, create a 
 `/dev/apeshit` device and redirect its output into an audio player.
@@ -83,7 +83,7 @@ Track information will show up in the output of `dmesg`:
 [ 4881.408407] [apeshit]: Now playing track 1 - Shaved Ape Drape
 ```
 
-If you've read this far, god help us all, and thank @usrbinnc for letting us stand on the shoulder of giants!
+If you've read this far, god help us all, and thank @usrbinnc for letting us stand on the shoulders of giants!
 
 People insane enough to contribute (thanks!!) -- 
 ---------

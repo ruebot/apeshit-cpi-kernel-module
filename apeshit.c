@@ -52,11 +52,17 @@ struct apeshit {
 	int	current_track;
 };
 
-static char *tracks[] = {apeshit_cpi_trk1};
+static char *tracks[] = {apeshit_cpi_trk1,
+                         apeshit_cpi_trk2,
+			 apeshit_cpi_trk3};
 
-static char *tracknames[] = {"Shaved Ape Drape"};
+static char *tracknames[] = {"Shaved Ape Drape",
+                             "I want you to die",
+                             "Do the jerk"};
 
-static unsigned long tracklens[] = {APESHIT_CPI_TRK1_LEN};
+static unsigned long tracklens[] = {APESHIT_CPI_TRK1_LEN,
+				    APESHIT_CPI_TRK2_LEN,
+				    APESHIT_CPI_TRK3_LEN};
 
 static int device_open(struct inode *inode, struct file *file)
 {
@@ -122,7 +128,7 @@ static ssize_t device_read(struct file *file,
 static ssize_t
 device_write(struct file *filp, const char *buff, size_t len, loff_t *off)
 {
-	pr_err("Writing to apeshit - Shaved Ape Drape isn't supported.\n");
+	pr_err("Writing to apeshit - Apeshit Simians - Live at the Silver Dollar Room! isn't supported.\n");
 	return -EINVAL;
 }
 
@@ -150,7 +156,7 @@ static int apeshit_init(void)
 		pr_err("misc device register failed\n");
 		return ret;
 	}
-	pr_info("Apeshit Simians- Shaved Ape Drape - Kernel Module Edition - 2014\n");
+	pr_info("Apeshit Simians- Live at the Silver Dollar Room! - Kernel Module Edition - 2014\n");
 	pr_info("Apeshit Simians are Boutros Boutros Gorilla, Surnom de Gorille, Gorilla Monpoo\n");
 	pr_info("On the web at http://soundcloud.com/apeshit-simians\n");
 	pr_info("'ogg123 - < /dev/apeshit' to play.\n");
