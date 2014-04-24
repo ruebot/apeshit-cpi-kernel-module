@@ -43,6 +43,8 @@
 */
 
 #include <trk1.h>
+#include <trk2.h>
+#include <trk3.h>
 
 #define DEVICE_NAME "apeshit"	/* Dev name as it appears in /proc/devices   */
 
