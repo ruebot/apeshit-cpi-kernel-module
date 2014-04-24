@@ -10,10 +10,10 @@ Shaved Ape Drape - The Kernel Module Edition
 Welcome to the most unnecessarily complicated Apeshit Simian track release format yet. 
 
 In this repository, you will be able to compile your own kernel module, create a 
-`/dev/netcat` device and redirect its output into an audio player.
+`/dev/apeshit` device and redirect its output into an audio player.
 
 ```
-ogg123 - < /dev/netcat
+ogg123 - < /dev/apeshit
 ```
 
 This repository contains the album's track data in source files, that (for complexity's sake) came from a `.wav` files that was recorded with a Tascam DR-05 at the Silver Dollar Room on March 21, 2014. The `.ogg` file was encoded from the `.wav` file. 
@@ -63,21 +63,24 @@ dmesg
 You should see output like the following from `dmesg`:
 
 ```
-[ 2606.528153] [netcat]: Apeshit - Shaved Ape Drape - Kernel Module Edition - 2014
-[ 2606.528153] [netcat]: Apeshit Simians are Boutros Boutros Gorilla, Surnom de Gorille, and Gorilla Monpoon
-[ 2606.528153] [netcat]: 'ogg123 - < /dev/netcat' to play.
+[ 4721.829151] [apeshit]: Apeshit Simians- Shaved Ape Drape - Kernel Module Edition - 2014
+[ 4721.829154] [apeshit]: Apeshit Simians are Boutros Boutros Gorilla, Surnom de Gorille, Gorilla Monpoo
+[ 4721.829155] [apeshit]: On the web at http://soundcloud.com/apeshit-simians
+[ 4721.829156] [apeshit]: 'ogg123 - < /dev/apeshit' to play.
+[ 4881.408407] [apeshit]: Now playing track 1 - Shaved Ape Drape
+
 ```
 
 Finally, put on some headphones, and run:
 
 ```
-ogg123 - < /dev/netcat 
+ogg123 - < /dev/apeshit 
 ```
 
 Track information will show up in the output of `dmesg`:
 
 ```
-[  612.411529] [netcat]: Now playing track 1 - 
+[ 4881.408407] [apeshit]: Now playing track 1 - Shaved Ape Drape
 ```
 
 If you've read this far, god help us all, and thank @usrbinnc for letting us stand on the shoulder of giants!
