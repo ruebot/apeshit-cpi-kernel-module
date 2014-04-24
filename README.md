@@ -4,8 +4,7 @@
 by [Apeshit Simians](http://soundcloud.com/apeshit-simians) (Boutros Boutros Gorilla, Surnom de Gorille, and Gorilla Monpoon)
 
 
-Live at the Silver Dollar Room! - The Kernel Module Edition
---------------------------------------------------
+### Live at the Silver Dollar Room! - The Kernel Module Edition
 
 Welcome to the most unnecessarily complicated Apeshit Simian release format yet. 
 
@@ -19,8 +18,8 @@ ogg123 - < /dev/apeshit
 This repository contains the album's track data in source files, that (for complexity's sake) came from a `.wav` files that was recorded with a Tascam DR-05 at the Silver Dollar Room on March 21, 2014. The `.ogg` file was encoded from the `.wav` file. 
 24-track analog tape.
 
-Building
---------
+### Building
+
 We've only tested this on Ubuntu Linux. Sure, it's real easy to grab another operating system ISO 
 and test it out, but after a day toiling in the bitmines, who has the energy?
 
@@ -50,8 +49,7 @@ make
 
 Building will take a long time.  Hang with it.  Building also requires several gigabytes of memory.  We're not totally sure why, but we think it is because because the compiler is making lots of copies of several large, static arrays that contain track data.
 
-Listening
----------
+### Listening
 
 After you build, run you need to load the module and see if it is working, so you can run:
 
@@ -85,8 +83,7 @@ Track information will show up in the output of `dmesg`:
 
 If you've read this far, god help us all, and thank @usrbinnc for letting us stand on the shoulders of giants!
 
-People insane enough to contribute (thanks!!) -- 
----------
+### People insane enough to contribute (thanks!!) -- 
 
 * @mark-bi added support for auto-creating our /dev/netcat device. Thanks, Mark!
 * @arfar pointed out that not everyone wants to clone public repos over SSH, and updated the clone instructions to https. Thanks!
